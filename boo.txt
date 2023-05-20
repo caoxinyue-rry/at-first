@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>Bootstrap 实例 - 下拉菜单标题</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div class="dropdown">
+    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" 
+            data-toggle="dropdown">
+        笔记
+        <!-- <span class="caret"></span> -->
+    </button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation" class="dropdown-header">下拉菜单标题</li>
+        <li role="presentation" >
+            <a role="menuitem" tabindex="-1" href="./index.html">主页</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="./jianli.html">简历</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="./free.html">
+                自由发挥
+            </a>
+        </li>
+        <li role="presentation" class="divider"></li>
+        <li role="presentation" class="dropdown-header">下拉菜单标题</li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="./xuexi.html">学习笔记1</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="./xuexib.html">学习笔记2</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="./xuexicg.html">学习笔记3</a>
+        </li>
+        
+    </ul>
+</div>
+
+</body>
+</html>
