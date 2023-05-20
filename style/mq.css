@@ -1,0 +1,54 @@
+@keyframes bgAnimation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+@keyframes flutter {
+    0%{
+        transform: translateX(0);
+        bottom: -100px;
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(100px);
+        opacity: 0.5;
+    }
+
+    
+    100%{
+        transform: translateX(0px);
+        bottom: 100%;
+        opacity: 0;
+
+    }
+}
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 700px 时, 让两栏上下堆叠显示 */
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+ 
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 400px 时, 让导航栏目上下堆叠显示 */
+@media screen and (max-width: 400px) {
+    .topmenu a {
+        float: none;
+        width: 100%;
+    }
+    .topmenuo a {
+        float: none;
+        width: 100%;
+    }
+    .topmenub a {
+        float: none;
+        width: 100%;
+    }
+}
+
+
